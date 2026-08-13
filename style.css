@@ -39,41 +39,28 @@ body{
     padding-bottom: 40px;
 }
 
-/*Style des boutons*/
-.btn {
-    background-color: rgb(143, 52, 143);
-    color: white;
-    border-color: rgb(143, 52, 143);
-    border-radius : 24px;
-}
-
-.btn:hover {
-    background-color: rgb(107, 23, 107);
-    color: #000000;
-    transition: background 0.1s;
-}
-
-.btn-custom-grey:active {
-    background-color: rgb(73, 11, 73);
-    color: #000000;
-    transform: translateY(0);
-    transition: background 0.1s;
+.padding{
+    padding-left: 183px;
 }
 
 .card{
-    padding-left: 183px;
     width: 1000px;
     background-color: rgb(36, 34, 34);
 }
 
-.top{
-    position: relative;
+.top {
+    display: flex;
     align-items: center;
 }
 
+.top h1 {
+    margin-right: auto;
+}
+
 .tag{
+    margin-left: 10px;
     display: flex;
-    min-width: 10px;
+    width: fit-content;
     background-color: grey;
     top: 0;
     right: 0;
