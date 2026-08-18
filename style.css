@@ -39,6 +39,16 @@ body{
     padding-bottom: 40px;
 }
 
+.menu{
+    background-color: #444;
+    height: 100px;
+    width: 100px;
+    column-width: 30em;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .padding{
     padding-left: 183px;
 }
@@ -59,6 +69,8 @@ body{
 
 .tag{
     margin-left: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
     display: flex;
     width: fit-content;
     background-color: grey;
