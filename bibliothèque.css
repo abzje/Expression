@@ -1,0 +1,20 @@
+.padding{ /*décale les éléments de la page au centre en gardant la couleur de fond du body*/
+    padding-left: 183px;
+}
+
+/*Checkbox de la page bibliothèque*/
+[value="poesie"]:checked ~ .items .item[data-category="poesie"],
+[value="metaphore"]:checked ~ .items .item[data-category="metaphore"],
+[value="fanfic"]:checked ~ .items .item[data-category="fanfic"] 
+{
+    display: block;
+    animation: fadeIn .25s;
+}
+
+[value="poesie"]:not(:checked) ~ .items .item[data-category="poesie"],
+[value="metaphore"]:not(:checked) ~ .items .item[data-category="metaphore"],
+[value="fanfic"]:not(:checked) ~ .items .item[data-category="fanfic"] 
+{
+    animation: fadeOut .25s;
+    display: none;
+}
