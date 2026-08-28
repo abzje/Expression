@@ -17,7 +17,8 @@
 }
 
 .menu{
-    background-color: #444;
+    background-color: var(--card-bg-color);
+	color: var(--text-color);
     height: fit-content;
     padding: 10px 20px;
     margin-left: 10px;
@@ -41,5 +42,5 @@
 .chapitre a {
     margin: 3px;
     text-decoration: none;
-    color: #eee;
+    color: var(--text-color);
 }

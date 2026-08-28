@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="basestyle.css">
     <link rel="stylesheet" href="bibliothèque.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="switch.css">
+    <script src="darklightmode.js"></script>
 </head>
 
 <body>
@@ -24,7 +26,10 @@
             placeholder="Rechercher un tag ou un texte "
         />
         <div class="option">
-            <input type="button" id="theme-toggle" role="switch" class="toggle">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round" data-theme-toggler></span>
+            </label>
             <label for="theme-toggle" class="sr-only">Activer le mode sombre</label>
             Anglais
             Français
@@ -36,16 +41,17 @@
         <div class="filtre">
             <h1 class="text-xl text-left">Filtres</h1>
         </div>
-        <label for="poesie">Poésie</label> 
-        <input name="filter" class="input" type="checkbox" id="poesie" value="poesie" checked>
-                
-        <label for="metaphore">Métaphore</label> 
-        <input name="filter" class="input" type="checkbox" id="metaphore" value="metaphore" checked>
-                
-        <label for="fanfic">Fan-Fiction</label> 
-        <input name="filter" class="input" type="checkbox" id="fanfic" value="fanfic" checked>
+        <div class="checkbox2">
+            <label for="poesie">Poésie</label> 
+            <input name="filter" class="input" type="checkbox" id="poesie" value="poesie" checked>
+                    
+            <label for="metaphore">Métaphore</label> 
+            <input name="filter" class="input" type="checkbox" id="metaphore" value="metaphore" checked>
+                    
+            <label for="fanfic">Fan-Fiction</label> 
+            <input name="filter" class="input" type="checkbox" id="fanfic" value="fanfic" checked>
+        </div>
     
-
         <!--
             On utilise 'aria-live' pour indiquer qu'une section de la page va être update dynamiquement 
             et 'aria-live=polite' pour dire que la section attendra que l'utilisateur finissent sa tache courante avant d'être update

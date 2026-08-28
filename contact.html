@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="basestyle.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="switch.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="darklightmode.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="HomePage.html">
+            HOME
+        </a>
+        <!-- Barre de recherche -->
+        <input type="search" 
+            id="site-search" 
+            name="q"
+            minlength="1"
+            maxlength="50"
+            size="55"
+            placeholder="Rechercher un tag ou un texte "
+        />
+        <div class="option">
+            <label class="switch" >
+                <input type="checkbox" >
+                <span class="slider round" data-theme-toggler></span>
+            </label>
+            <label for="theme-toggle" class="sr-only">Activer le mode sombre</label>
+            Anglais
+            Français
+        </div>
+    </header>
+
+    <div class="main">
+        <p> CONTACT </p>
+        <label for="nom" class="label"> Nom </label><br>
+        <input type="text" name="nom" required><br><br>
+        <label for="prénom" class="label"> Prénom </label><br>
+        <input type="text" name="prénom" required><br><br>
+        <label for="mail" class="label"> Mail </label><br>
+        <input type="text" name="mail" required><br><br>
+        <label for="téléphone" class="label"> Télephone </label><br>
+        <input type="text" name="téléphone" required><br><br>
+        <label for="objet" class="label"> Objet </label><br>
+        <input type="text" name="objet" required><br><br>
+        <label for="message" class="label"> Message </label><br>
+        <input type="text" name="message" class="message" required><br><br>
+        <input type="submit" value="envoyer message">
+    </div>
+    
+</body>

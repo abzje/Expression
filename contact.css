@@ -1,0 +1,20 @@
+.main{
+    width: fit-content;
+    margin: auto;
+    padding-top: 50px;
+    width: fit-content;
+    margin: auto;
+}
+
+p{
+    width: fit-content;
+    margin: auto;
+}
+
+.main input{
+    width: 200px;
+}
+
+.message{
+    height: 70px;
+}

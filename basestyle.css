@@ -21,9 +21,13 @@ header .option{
     padding-right: 30px;
 }
 
+/*change la couleur des href*/
+a, a:link, a:visited, a:hover, a:active {
+  color: #000000;
+  text-decoration: none; /*enleve le soulignement par defaut */
+}
+
 body{
-    background-color: black;
-    color: #ffffff;
     margin : 0;
     padding-top: 60px; /* évite qu'une partie du body passe en dessous du header */
     padding-bottom: 40px; /* évite qu'une partie du body passe en dessous du footer */

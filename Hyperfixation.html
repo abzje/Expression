@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="basestyle.css">
     <link rel="stylesheet" href="hyperfixation.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="switch.css">
+    <script src="darklightmode.js"></script>
 </head>
 <body>
     <header>
@@ -23,7 +25,10 @@
             placeholder="Rechercher un tag ou un texte "
         />
         <div class="option">
-            <input type="button" id="theme-toggle" role="switch" class="toggle">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round" data-theme-toggler></span>
+            </label>
             <label for="theme-toggle" class="sr-only">Activer le mode sombre</label>
             Anglais
             Français

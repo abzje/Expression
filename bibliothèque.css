@@ -1,7 +1,3 @@
-.padding{ /*décale les éléments de la page au centre en gardant la couleur de fond du body*/
-    padding-left: 183px;
-}
-
 /*Checkbox de la page bibliothèque*/
 [value="poesie"]:checked ~ .items .item[data-category="poesie"],
 [value="metaphore"]:checked ~ .items .item[data-category="metaphore"],
